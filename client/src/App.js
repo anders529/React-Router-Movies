@@ -18,11 +18,11 @@ return (
     <Route exact path="/">
         <MovieList/>
   </Route>
-  <Route exact path="/movies/:id">
-      <Movie addToSavedList={addToSavedList}/>
+  <Route path="/movie/:id">
+      <Movie />
   </Route>
   </div>
 );
 };
-
+// addToSavedList={addToSavedList}
 export default App;
